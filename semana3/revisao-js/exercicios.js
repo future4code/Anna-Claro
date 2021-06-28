@@ -29,22 +29,23 @@ function retornaNumerosPares(array) {
 }
 
 // EXERCÍCIO 04
-function retornaMaiorNumero(array) {
- const maiorNumero = []
- for (let i = 0; i < array.length; i++){
-  maiorNumero.push(array[i])
+function retornaMaiorNumero(array) { 
+  for (let i = 0; i < array.length; i++){
+   if (array[i] >= 7){
+   }
  }
  return maiorNumero
 }
 
 // EXERCÍCIO 05
 function retornaQuantidadeElementos(array) {
-  
+  return array.length
 }
 
 // EXERCÍCIO 06
 function retornaExpressoesBooleanas() {
-
+ const respostas = [false, false, true, true, true]
+ return respostas
 }
 
 // EXERCÍCIO 07
@@ -54,9 +55,13 @@ function retornaNNumerosPares(n) {
 
 // EXERCÍCIO 08
 function checaTriangulo(a, b, c) {
-  // return 'Escaleno'
-  // return 'Equilátero'
-  // return 'Isósceles'
+  if (a === b && a === c && b === c) {
+    return 'Equilátero'
+  } else if (a !== b && c !== a) {
+    return 'Escaleno'
+  } else {
+    return 'Isósceles'
+  }
 }
 
 // EXERCÍCIO 09

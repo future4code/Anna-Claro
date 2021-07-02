@@ -1,0 +1,55 @@
+body{
+ text-align:center;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ background-color: #8A71C9;
+ color: #ffffff;
+ margin:0%;
+} 
+
+#novidades{
+ font-size: medium; 
+}
+
+#redes{
+  font-size: small;  
+}
+
+#foto1{
+ height:50px ;
+ width:50px ;
+}
+
+#foto2{
+ height:50px ;
+ width:50px ;
+}
+
+#foto3{
+  height:50px ;
+  width:50px ;   
+}
+
+h1{
+  color: rgb(66, 219, 219);
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+
+#descriçao{
+  color: rgb(229, 160, 214);
+  font-weight: bold; 
+  font-size: large;  
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul{
+    list-style-type:none;
+    line-height: 2;
+    padding-left:0;
+  }
+
+ #nomeLoja{
+  color: aquamarine;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  font-weight: bolder;  
+ } 
+
